@@ -1,0 +1,19 @@
+language: java
+jdk:
+  - openjdk8
+sudo: false
+addons:
+  apt:
+    packages:
+      - openjdk-8-jre-headless
+script:
+  - mvn test -B -Djava.awt.headless=true
+after_success:
+  - java main.makeDocumentation
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: docs/
+  on:
+    branch: master
