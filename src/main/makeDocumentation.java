@@ -4,7 +4,7 @@ import java.io.File;
 
 import reversej.controller.Controller;
 
-public class makeDocumentation {
+public class MakeDocumentation {
 
 	public static void main(String[] args) {
 		Controller c = new Controller();
