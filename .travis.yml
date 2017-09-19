@@ -8,8 +8,6 @@ addons:
       - openjdk-8-jre-headless
 script:
   - mvn test -B -Djava.awt.headless=true
-after_success:
-  - java main.MakeDocumentation
 deploy:
   provider: pages
   skip_cleanup: true

@@ -6,7 +6,7 @@ public class MakeDocumentationTest {
 
 	@Test
 	public void test() {
-		MakeDocumentation.main(null);
+		DocumentationMaker.main(null);
 	}
 
 }
