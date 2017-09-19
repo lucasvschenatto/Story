@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_pgIZIJz3EeeYv9K0u6OZ-A" name="root">
+  <packagedElement xmi:type="uml:Package" xmi:id="_pgJnQJz3EeeYv9K0u6OZ-A" name="Class Diagram">
+    <packagedElement xmi:type="uml:Class" xmi:id="_pgJnQZz3EeeYv9K0u6OZ-A" name="main.Enemy">
+      <ownedOperation xmi:id="_pgN4sJz3EeeYv9K0u6OZ-A" name="&lt;init>">
+        <ownedParameter xmi:id="_pgN4sZz3EeeYv9K0u6OZ-A" name="name" type="_pgSxPZz3EeeYv9K0u6OZ-A"/>
+        <ownedParameter xmi:id="_pgN4spz3EeeYv9K0u6OZ-A" name="return" type="_pgJnQZz3EeeYv9K0u6OZ-A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pgN4s5z3EeeYv9K0u6OZ-A" name="capture">
+        <ownedParameter xmi:id="_pgN4tJz3EeeYv9K0u6OZ-A" name="p" type="_pgRjGJz3EeeYv9K0u6OZ-A"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pgN4tZz3EeeYv9K0u6OZ-A" name="release">
+        <ownedParameter xmi:id="_pgN4tpz3EeeYv9K0u6OZ-A" name="p" type="_pgRjGJz3EeeYv9K0u6OZ-A"/>
+        <ownedParameter xmi:id="_pgN4t5z3EeeYv9K0u6OZ-A" name="return" type="_pgSxPJz3EeeYv9K0u6OZ-A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pgN4uJz3EeeYv9K0u6OZ-A" name="getName">
+        <ownedParameter xmi:id="_pgN4uZz3EeeYv9K0u6OZ-A" name="return" type="_pgSxPZz3EeeYv9K0u6OZ-A" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pgN4upz3EeeYv9K0u6OZ-A" name="main.Hero">
+      <ownedOperation xmi:id="_pgN4u5z3EeeYv9K0u6OZ-A" name="&lt;init>">
+        <ownedParameter xmi:id="_pgN4vJz3EeeYv9K0u6OZ-A" name="name" type="_pgSxPZz3EeeYv9K0u6OZ-A"/>
+        <ownedParameter xmi:id="_pgOfwJz3EeeYv9K0u6OZ-A" name="return" type="_pgN4upz3EeeYv9K0u6OZ-A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pgOfwZz3EeeYv9K0u6OZ-A" name="save">
+        <ownedParameter xmi:id="_pgOfwpz3EeeYv9K0u6OZ-A" name="princess" type="_pgRjGJz3EeeYv9K0u6OZ-A"/>
+        <ownedParameter xmi:id="_pgOfw5z3EeeYv9K0u6OZ-A" name="enemy" type="_pgJnQZz3EeeYv9K0u6OZ-A"/>
+        <ownedParameter xmi:id="_pgOfxJz3EeeYv9K0u6OZ-A" name="return" type="_pgSxPJz3EeeYv9K0u6OZ-A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pgOfxZz3EeeYv9K0u6OZ-A" name="getName">
+        <ownedParameter xmi:id="_pgRjEJz3EeeYv9K0u6OZ-A" name="return" type="_pgSxPZz3EeeYv9K0u6OZ-A" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pgRjEZz3EeeYv9K0u6OZ-A" name="main.Palace">
+      <interfaceRealization xmi:id="_pgRjEpz3EeeYv9K0u6OZ-A" name="main.Locationmain.Palace" client="_pgRjEZz3EeeYv9K0u6OZ-A" supplier="_pgSKOJz3EeeYv9K0u6OZ-A" contract="_pgSKOJz3EeeYv9K0u6OZ-A"/>
+      <ownedOperation xmi:id="_pgRjE5z3EeeYv9K0u6OZ-A" name="&lt;init>">
+        <ownedParameter xmi:id="_pgRjFJz3EeeYv9K0u6OZ-A" name="name" type="_pgSxPZz3EeeYv9K0u6OZ-A"/>
+        <ownedParameter xmi:id="_pgRjFZz3EeeYv9K0u6OZ-A" name="return" type="_pgRjEZz3EeeYv9K0u6OZ-A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pgRjFpz3EeeYv9K0u6OZ-A" name="getName">
+        <ownedParameter xmi:id="_pgRjF5z3EeeYv9K0u6OZ-A" name="return" type="_pgSxPZz3EeeYv9K0u6OZ-A" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pgRjGJz3EeeYv9K0u6OZ-A" name="main.Princess">
+      <ownedOperation xmi:id="_pgRjGZz3EeeYv9K0u6OZ-A" name="&lt;init>">
+        <ownedParameter xmi:id="_pgRjGpz3EeeYv9K0u6OZ-A" name="name" type="_pgSxPZz3EeeYv9K0u6OZ-A"/>
+        <ownedParameter xmi:id="_pgSKIJz3EeeYv9K0u6OZ-A" name="return" type="_pgRjGJz3EeeYv9K0u6OZ-A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pgSKIZz3EeeYv9K0u6OZ-A" name="setGuard">
+        <ownedParameter xmi:id="_pgSKIpz3EeeYv9K0u6OZ-A" name="enemy" type="_pgJnQZz3EeeYv9K0u6OZ-A"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pgSKI5z3EeeYv9K0u6OZ-A" name="isGuarded">
+        <ownedParameter xmi:id="_pgSKJJz3EeeYv9K0u6OZ-A" name="return" type="_pgSxPJz3EeeYv9K0u6OZ-A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pgSKJZz3EeeYv9K0u6OZ-A" name="removeGuard"/>
+      <ownedOperation xmi:id="_pgSKJpz3EeeYv9K0u6OZ-A" name="getName">
+        <ownedParameter xmi:id="_pgSKJ5z3EeeYv9K0u6OZ-A" name="return" type="_pgSxPZz3EeeYv9K0u6OZ-A" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pgSKKJz3EeeYv9K0u6OZ-A" name="main.Story">
+      <ownedAttribute xmi:id="_pgSKKZz3EeeYv9K0u6OZ-A" name="" type="_pgRjEZz3EeeYv9K0u6OZ-A" association="_pgSKO5z3EeeYv9K0u6OZ-A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pgSKKpz3EeeYv9K0u6OZ-A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pgSKK5z3EeeYv9K0u6OZ-A" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pgSKLJz3EeeYv9K0u6OZ-A" name="" type="_pgJnQZz3EeeYv9K0u6OZ-A" association="_pgSKP5z3EeeYv9K0u6OZ-A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pgSKLZz3EeeYv9K0u6OZ-A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pgSKLpz3EeeYv9K0u6OZ-A" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pgSKL5z3EeeYv9K0u6OZ-A" name="" type="_pgN4upz3EeeYv9K0u6OZ-A" association="_pgSxMJz3EeeYv9K0u6OZ-A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pgSKMJz3EeeYv9K0u6OZ-A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pgSKMZz3EeeYv9K0u6OZ-A" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pgSKMpz3EeeYv9K0u6OZ-A" name="" type="_pgRjGJz3EeeYv9K0u6OZ-A" association="_pgSxNJz3EeeYv9K0u6OZ-A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pgSKM5z3EeeYv9K0u6OZ-A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pgSKNJz3EeeYv9K0u6OZ-A" value="*"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_pgSKNZz3EeeYv9K0u6OZ-A" name="&lt;init>">
+        <ownedParameter xmi:id="_pgSKNpz3EeeYv9K0u6OZ-A" name="return" type="_pgSKKJz3EeeYv9K0u6OZ-A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pgSKN5z3EeeYv9K0u6OZ-A" name="tellStory"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_pgSKOJz3EeeYv9K0u6OZ-A" name="main.Location">
+      <ownedOperation xmi:id="_pgSKOZz3EeeYv9K0u6OZ-A" name="getName">
+        <ownedParameter xmi:id="_pgSKOpz3EeeYv9K0u6OZ-A" name="return" type="_pgSxPZz3EeeYv9K0u6OZ-A" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_pgSKO5z3EeeYv9K0u6OZ-A" memberEnd="_pgSKKZz3EeeYv9K0u6OZ-A _pgSKPJz3EeeYv9K0u6OZ-A">
+      <ownedEnd xmi:id="_pgSKPJz3EeeYv9K0u6OZ-A" name="" type="_pgSKKJz3EeeYv9K0u6OZ-A" association="_pgSKO5z3EeeYv9K0u6OZ-A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pgSKPZz3EeeYv9K0u6OZ-A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pgSKPpz3EeeYv9K0u6OZ-A" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_pgSKP5z3EeeYv9K0u6OZ-A" memberEnd="_pgSKLJz3EeeYv9K0u6OZ-A _pgSKQJz3EeeYv9K0u6OZ-A">
+      <ownedEnd xmi:id="_pgSKQJz3EeeYv9K0u6OZ-A" name="" type="_pgSKKJz3EeeYv9K0u6OZ-A" association="_pgSKP5z3EeeYv9K0u6OZ-A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pgSKQZz3EeeYv9K0u6OZ-A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pgSKQpz3EeeYv9K0u6OZ-A" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_pgSxMJz3EeeYv9K0u6OZ-A" memberEnd="_pgSKL5z3EeeYv9K0u6OZ-A _pgSxMZz3EeeYv9K0u6OZ-A">
+      <ownedEnd xmi:id="_pgSxMZz3EeeYv9K0u6OZ-A" name="" type="_pgSKKJz3EeeYv9K0u6OZ-A" association="_pgSxMJz3EeeYv9K0u6OZ-A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pgSxMpz3EeeYv9K0u6OZ-A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pgSxM5z3EeeYv9K0u6OZ-A" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_pgSxNJz3EeeYv9K0u6OZ-A" memberEnd="_pgSKMpz3EeeYv9K0u6OZ-A _pgSxNZz3EeeYv9K0u6OZ-A">
+      <ownedEnd xmi:id="_pgSxNZz3EeeYv9K0u6OZ-A" name="" type="_pgSKKJz3EeeYv9K0u6OZ-A" association="_pgSxNJz3EeeYv9K0u6OZ-A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pgSxNpz3EeeYv9K0u6OZ-A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pgSxN5z3EeeYv9K0u6OZ-A" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_pgSxOJz3EeeYv9K0u6OZ-A" client="_pgJnQZz3EeeYv9K0u6OZ-A" supplier="_pgRjGJz3EeeYv9K0u6OZ-A"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_pgSxOZz3EeeYv9K0u6OZ-A" client="_pgN4upz3EeeYv9K0u6OZ-A" supplier="_pgRjGJz3EeeYv9K0u6OZ-A"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_pgSxOpz3EeeYv9K0u6OZ-A" client="_pgN4upz3EeeYv9K0u6OZ-A" supplier="_pgJnQZz3EeeYv9K0u6OZ-A"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_pgSxO5z3EeeYv9K0u6OZ-A" client="_pgSKKJz3EeeYv9K0u6OZ-A" supplier="_pgSKOJz3EeeYv9K0u6OZ-A"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_pgSxPJz3EeeYv9K0u6OZ-A" name="java.lang.Boolean"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_pgSxPZz3EeeYv9K0u6OZ-A" name="java.lang.String"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_pgSxPpz3EeeYv9K0u6OZ-A" name="Sequence Diagram">
+    <packageImport xmi:id="_pgSxP5z3EeeYv9K0u6OZ-A" importedPackage="_pgJnQJz3EeeYv9K0u6OZ-A"/>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_pgSxQJz3EeeYv9K0u6OZ-A" name="Sequence Diagram">
+      <ownedAttribute xmi:id="_pgSxQZz3EeeYv9K0u6OZ-A" name="main.Story" type="_pgSKKJz3EeeYv9K0u6OZ-A"/>
+      <ownedAttribute xmi:id="_pgSxQpz3EeeYv9K0u6OZ-A" name="main.Palace" type="_pgRjEZz3EeeYv9K0u6OZ-A"/>
+      <ownedAttribute xmi:id="_pgSxQ5z3EeeYv9K0u6OZ-A" name="main.Enemy" type="_pgJnQZz3EeeYv9K0u6OZ-A"/>
+      <ownedAttribute xmi:id="_pgSxRJz3EeeYv9K0u6OZ-A" name="main.Hero" type="_pgN4upz3EeeYv9K0u6OZ-A"/>
+      <ownedAttribute xmi:id="_pgSxRZz3EeeYv9K0u6OZ-A" name="main.Princess" type="_pgRjGJz3EeeYv9K0u6OZ-A"/>
+      <lifeline xmi:id="_pgSxRpz3EeeYv9K0u6OZ-A" name="StartOfFeature" coveredBy="_pgSxTJz3EeeYv9K0u6OZ-A _pgSxT5z3EeeYv9K0u6OZ-A _pgSxUJz3EeeYv9K0u6OZ-A"/>
+      <lifeline xmi:id="_pgSxR5z3EeeYv9K0u6OZ-A" name="main.Story" represents="_pgSxQZz3EeeYv9K0u6OZ-A" coveredBy="_pgSxTZz3EeeYv9K0u6OZ-A _pgSxTpz3EeeYv9K0u6OZ-A _pgSxUZz3EeeYv9K0u6OZ-A _pgSxUpz3EeeYv9K0u6OZ-A _pgSxVZz3EeeYv9K0u6OZ-A _pgSxVpz3EeeYv9K0u6OZ-A _pgTYQZz3EeeYv9K0u6OZ-A _pgTYQpz3EeeYv9K0u6OZ-A _pgTYRZz3EeeYv9K0u6OZ-A _pgTYRpz3EeeYv9K0u6OZ-A _pgTYSZz3EeeYv9K0u6OZ-A _pgTYSpz3EeeYv9K0u6OZ-A _pgTYTpz3EeeYv9K0u6OZ-A _pgTYW5z3EeeYv9K0u6OZ-A _pgTYXJz3EeeYv9K0u6OZ-A _pgTYX5z3EeeYv9K0u6OZ-A _pgTYYJz3EeeYv9K0u6OZ-A _pgTYY5z3EeeYv9K0u6OZ-A _pgTYZJz3EeeYv9K0u6OZ-A _pgTYZ5z3EeeYv9K0u6OZ-A _pgTYaJz3EeeYv9K0u6OZ-A _pgTYa5z3EeeYv9K0u6OZ-A"/>
+      <lifeline xmi:id="_pgSxSJz3EeeYv9K0u6OZ-A" name="main.Palace" represents="_pgSxQpz3EeeYv9K0u6OZ-A" coveredBy="_pgSxU5z3EeeYv9K0u6OZ-A _pgSxVJz3EeeYv9K0u6OZ-A _pgTYaZz3EeeYv9K0u6OZ-A _pgTYapz3EeeYv9K0u6OZ-A"/>
+      <lifeline xmi:id="_pgSxSZz3EeeYv9K0u6OZ-A" name="main.Enemy" represents="_pgSxQ5z3EeeYv9K0u6OZ-A" coveredBy="_pgSxV5z3EeeYv9K0u6OZ-A _pgTYQJz3EeeYv9K0u6OZ-A _pgTYS5z3EeeYv9K0u6OZ-A _pgTYTJz3EeeYv9K0u6OZ-A _pgTYVZz3EeeYv9K0u6OZ-A _pgTYVpz3EeeYv9K0u6OZ-A _pgTYWJz3EeeYv9K0u6OZ-A _pgTYZZz3EeeYv9K0u6OZ-A _pgTYZpz3EeeYv9K0u6OZ-A"/>
+      <lifeline xmi:id="_pgSxSpz3EeeYv9K0u6OZ-A" name="main.Hero" represents="_pgSxRJz3EeeYv9K0u6OZ-A" coveredBy="_pgTYQ5z3EeeYv9K0u6OZ-A _pgTYRJz3EeeYv9K0u6OZ-A _pgTYT5z3EeeYv9K0u6OZ-A _pgTYUJz3EeeYv9K0u6OZ-A _pgTYU5z3EeeYv9K0u6OZ-A _pgTYVJz3EeeYv9K0u6OZ-A _pgTYWZz3EeeYv9K0u6OZ-A _pgTYWpz3EeeYv9K0u6OZ-A _pgTYXZz3EeeYv9K0u6OZ-A _pgTYXpz3EeeYv9K0u6OZ-A"/>
+      <lifeline xmi:id="_pgSxS5z3EeeYv9K0u6OZ-A" name="main.Princess" represents="_pgSxRZz3EeeYv9K0u6OZ-A" coveredBy="_pgTYR5z3EeeYv9K0u6OZ-A _pgTYSJz3EeeYv9K0u6OZ-A _pgTYTZz3EeeYv9K0u6OZ-A _pgTYUZz3EeeYv9K0u6OZ-A _pgTYUpz3EeeYv9K0u6OZ-A _pgTYV5z3EeeYv9K0u6OZ-A _pgTYYZz3EeeYv9K0u6OZ-A _pgTYYpz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgSxTJz3EeeYv9K0u6OZ-A" name="StartOfFeature::&lt;init>()" covered="_pgSxRpz3EeeYv9K0u6OZ-A" message="_pgTYbJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgSxTZz3EeeYv9K0u6OZ-A" name="main.Story::&lt;init>()" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgTYbJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgSxTpz3EeeYv9K0u6OZ-A" name="main.Story::main.Story" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgTYbZz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgSxT5z3EeeYv9K0u6OZ-A" name="StartOfFeature::main.Story" covered="_pgSxRpz3EeeYv9K0u6OZ-A" message="_pgTYbZz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgSxUJz3EeeYv9K0u6OZ-A" name="StartOfFeature::tellStory()" covered="_pgSxRpz3EeeYv9K0u6OZ-A" message="_pgTYbpz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgSxUZz3EeeYv9K0u6OZ-A" name="main.Story::tellStory()" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgTYbpz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgSxUpz3EeeYv9K0u6OZ-A" name="main.Story::&lt;init>(java.lang.String name)" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgTYb5z3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgSxU5z3EeeYv9K0u6OZ-A" name="main.Palace::&lt;init>(java.lang.String name)" covered="_pgSxSJz3EeeYv9K0u6OZ-A" message="_pgTYb5z3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgSxVJz3EeeYv9K0u6OZ-A" name="main.Palace::main.Palace" covered="_pgSxSJz3EeeYv9K0u6OZ-A" message="_pgTYcJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgSxVZz3EeeYv9K0u6OZ-A" name="main.Story::main.Palace" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgTYcJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgSxVpz3EeeYv9K0u6OZ-A" name="main.Story::&lt;init>(java.lang.String name)" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgTYcZz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgSxV5z3EeeYv9K0u6OZ-A" name="main.Enemy::&lt;init>(java.lang.String name)" covered="_pgSxSZz3EeeYv9K0u6OZ-A" message="_pgTYcZz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYQJz3EeeYv9K0u6OZ-A" name="main.Enemy::main.Enemy" covered="_pgSxSZz3EeeYv9K0u6OZ-A" message="_pgT_UJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYQZz3EeeYv9K0u6OZ-A" name="main.Story::main.Enemy" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_UJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYQpz3EeeYv9K0u6OZ-A" name="main.Story::&lt;init>(java.lang.String name)" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_UZz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYQ5z3EeeYv9K0u6OZ-A" name="main.Hero::&lt;init>(java.lang.String name)" covered="_pgSxSpz3EeeYv9K0u6OZ-A" message="_pgT_UZz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYRJz3EeeYv9K0u6OZ-A" name="main.Hero::main.Hero" covered="_pgSxSpz3EeeYv9K0u6OZ-A" message="_pgT_Upz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYRZz3EeeYv9K0u6OZ-A" name="main.Story::main.Hero" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_Upz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYRpz3EeeYv9K0u6OZ-A" name="main.Story::&lt;init>(java.lang.String name)" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_U5z3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYR5z3EeeYv9K0u6OZ-A" name="main.Princess::&lt;init>(java.lang.String name)" covered="_pgSxS5z3EeeYv9K0u6OZ-A" message="_pgT_U5z3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYSJz3EeeYv9K0u6OZ-A" name="main.Princess::main.Princess" covered="_pgSxS5z3EeeYv9K0u6OZ-A" message="_pgT_VJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYSZz3EeeYv9K0u6OZ-A" name="main.Story::main.Princess" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_VJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYSpz3EeeYv9K0u6OZ-A" name="main.Story::capture(main.Princess p)" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_VZz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYS5z3EeeYv9K0u6OZ-A" name="main.Enemy::capture(main.Princess p)" covered="_pgSxSZz3EeeYv9K0u6OZ-A" message="_pgT_VZz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYTJz3EeeYv9K0u6OZ-A" name="main.Enemy::setGuard(main.Enemy enemy)" covered="_pgSxSZz3EeeYv9K0u6OZ-A" message="_pgT_Vpz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYTZz3EeeYv9K0u6OZ-A" name="main.Princess::setGuard(main.Enemy enemy)" covered="_pgSxS5z3EeeYv9K0u6OZ-A" message="_pgT_Vpz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYTpz3EeeYv9K0u6OZ-A" name="main.Story::save(main.Princess princess, main.Enemy enemy)" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_V5z3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYT5z3EeeYv9K0u6OZ-A" name="main.Hero::save(main.Princess princess, main.Enemy enemy)" covered="_pgSxSpz3EeeYv9K0u6OZ-A" message="_pgT_V5z3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYUJz3EeeYv9K0u6OZ-A" name="main.Hero::isGuarded()" covered="_pgSxSpz3EeeYv9K0u6OZ-A" message="_pgT_WJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYUZz3EeeYv9K0u6OZ-A" name="main.Princess::isGuarded()" covered="_pgSxS5z3EeeYv9K0u6OZ-A" message="_pgT_WJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYUpz3EeeYv9K0u6OZ-A" name="main.Princess::java.lang.Boolean" covered="_pgSxS5z3EeeYv9K0u6OZ-A" message="_pgT_WZz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYU5z3EeeYv9K0u6OZ-A" name="main.Hero::java.lang.Boolean" covered="_pgSxSpz3EeeYv9K0u6OZ-A" message="_pgT_WZz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYVJz3EeeYv9K0u6OZ-A" name="main.Hero::release(main.Princess p)" covered="_pgSxSpz3EeeYv9K0u6OZ-A" message="_pgT_Wpz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYVZz3EeeYv9K0u6OZ-A" name="main.Enemy::release(main.Princess p)" covered="_pgSxSZz3EeeYv9K0u6OZ-A" message="_pgT_Wpz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYVpz3EeeYv9K0u6OZ-A" name="main.Enemy::removeGuard()" covered="_pgSxSZz3EeeYv9K0u6OZ-A" message="_pgT_W5z3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYV5z3EeeYv9K0u6OZ-A" name="main.Princess::removeGuard()" covered="_pgSxS5z3EeeYv9K0u6OZ-A" message="_pgT_W5z3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYWJz3EeeYv9K0u6OZ-A" name="main.Enemy::java.lang.Boolean" covered="_pgSxSZz3EeeYv9K0u6OZ-A" message="_pgT_XJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYWZz3EeeYv9K0u6OZ-A" name="main.Hero::java.lang.Boolean" covered="_pgSxSpz3EeeYv9K0u6OZ-A" message="_pgT_XJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYWpz3EeeYv9K0u6OZ-A" name="main.Hero::java.lang.Boolean" covered="_pgSxSpz3EeeYv9K0u6OZ-A" message="_pgT_XZz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYW5z3EeeYv9K0u6OZ-A" name="main.Story::java.lang.Boolean" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_XZz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYXJz3EeeYv9K0u6OZ-A" name="main.Story::getName()" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_Xpz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYXZz3EeeYv9K0u6OZ-A" name="main.Hero::getName()" covered="_pgSxSpz3EeeYv9K0u6OZ-A" message="_pgT_Xpz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYXpz3EeeYv9K0u6OZ-A" name="main.Hero::java.lang.String" covered="_pgSxSpz3EeeYv9K0u6OZ-A" message="_pgT_X5z3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYX5z3EeeYv9K0u6OZ-A" name="main.Story::java.lang.String" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_X5z3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYYJz3EeeYv9K0u6OZ-A" name="main.Story::getName()" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_YJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYYZz3EeeYv9K0u6OZ-A" name="main.Princess::getName()" covered="_pgSxS5z3EeeYv9K0u6OZ-A" message="_pgT_YJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYYpz3EeeYv9K0u6OZ-A" name="main.Princess::java.lang.String" covered="_pgSxS5z3EeeYv9K0u6OZ-A" message="_pgT_YZz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYY5z3EeeYv9K0u6OZ-A" name="main.Story::java.lang.String" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_YZz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYZJz3EeeYv9K0u6OZ-A" name="main.Story::getName()" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_Ypz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYZZz3EeeYv9K0u6OZ-A" name="main.Enemy::getName()" covered="_pgSxSZz3EeeYv9K0u6OZ-A" message="_pgT_Ypz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYZpz3EeeYv9K0u6OZ-A" name="main.Enemy::java.lang.String" covered="_pgSxSZz3EeeYv9K0u6OZ-A" message="_pgT_Y5z3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYZ5z3EeeYv9K0u6OZ-A" name="main.Story::java.lang.String" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_Y5z3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYaJz3EeeYv9K0u6OZ-A" name="main.Story::getName()" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_ZJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYaZz3EeeYv9K0u6OZ-A" name="main.Palace::getName()" covered="_pgSxSJz3EeeYv9K0u6OZ-A" message="_pgT_ZJz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYapz3EeeYv9K0u6OZ-A" name="main.Palace::java.lang.String" covered="_pgSxSJz3EeeYv9K0u6OZ-A" message="_pgT_ZZz3EeeYv9K0u6OZ-A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pgTYa5z3EeeYv9K0u6OZ-A" name="main.Story::java.lang.String" covered="_pgSxR5z3EeeYv9K0u6OZ-A" message="_pgT_ZZz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgTYbJz3EeeYv9K0u6OZ-A" name="&lt;init>()" receiveEvent="_pgSxTZz3EeeYv9K0u6OZ-A" sendEvent="_pgSxTJz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgTYbZz3EeeYv9K0u6OZ-A" name="main.Story" receiveEvent="_pgSxT5z3EeeYv9K0u6OZ-A" sendEvent="_pgSxTpz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgTYbpz3EeeYv9K0u6OZ-A" name="tellStory()" receiveEvent="_pgSxUZz3EeeYv9K0u6OZ-A" sendEvent="_pgSxUJz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgTYb5z3EeeYv9K0u6OZ-A" name="&lt;init>(java.lang.String name)" receiveEvent="_pgSxU5z3EeeYv9K0u6OZ-A" sendEvent="_pgSxUpz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgTYcJz3EeeYv9K0u6OZ-A" name="main.Palace" receiveEvent="_pgSxVZz3EeeYv9K0u6OZ-A" sendEvent="_pgSxVJz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgTYcZz3EeeYv9K0u6OZ-A" name="&lt;init>(java.lang.String name)" receiveEvent="_pgSxV5z3EeeYv9K0u6OZ-A" sendEvent="_pgSxVpz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_UJz3EeeYv9K0u6OZ-A" name="main.Enemy" receiveEvent="_pgTYQZz3EeeYv9K0u6OZ-A" sendEvent="_pgTYQJz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_UZz3EeeYv9K0u6OZ-A" name="&lt;init>(java.lang.String name)" receiveEvent="_pgTYQ5z3EeeYv9K0u6OZ-A" sendEvent="_pgTYQpz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_Upz3EeeYv9K0u6OZ-A" name="main.Hero" receiveEvent="_pgTYRZz3EeeYv9K0u6OZ-A" sendEvent="_pgTYRJz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_U5z3EeeYv9K0u6OZ-A" name="&lt;init>(java.lang.String name)" receiveEvent="_pgTYR5z3EeeYv9K0u6OZ-A" sendEvent="_pgTYRpz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_VJz3EeeYv9K0u6OZ-A" name="main.Princess" receiveEvent="_pgTYSZz3EeeYv9K0u6OZ-A" sendEvent="_pgTYSJz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_VZz3EeeYv9K0u6OZ-A" name="capture(main.Princess p)" receiveEvent="_pgTYS5z3EeeYv9K0u6OZ-A" sendEvent="_pgTYSpz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_Vpz3EeeYv9K0u6OZ-A" name="setGuard(main.Enemy enemy)" receiveEvent="_pgTYTZz3EeeYv9K0u6OZ-A" sendEvent="_pgTYTJz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_V5z3EeeYv9K0u6OZ-A" name="save(main.Princess princess, main.Enemy enemy)" receiveEvent="_pgTYT5z3EeeYv9K0u6OZ-A" sendEvent="_pgTYTpz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_WJz3EeeYv9K0u6OZ-A" name="isGuarded()" receiveEvent="_pgTYUZz3EeeYv9K0u6OZ-A" sendEvent="_pgTYUJz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_WZz3EeeYv9K0u6OZ-A" name="java.lang.Boolean" receiveEvent="_pgTYU5z3EeeYv9K0u6OZ-A" sendEvent="_pgTYUpz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_Wpz3EeeYv9K0u6OZ-A" name="release(main.Princess p)" receiveEvent="_pgTYVZz3EeeYv9K0u6OZ-A" sendEvent="_pgTYVJz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_W5z3EeeYv9K0u6OZ-A" name="removeGuard()" receiveEvent="_pgTYV5z3EeeYv9K0u6OZ-A" sendEvent="_pgTYVpz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_XJz3EeeYv9K0u6OZ-A" name="java.lang.Boolean" receiveEvent="_pgTYWZz3EeeYv9K0u6OZ-A" sendEvent="_pgTYWJz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_XZz3EeeYv9K0u6OZ-A" name="java.lang.Boolean" receiveEvent="_pgTYW5z3EeeYv9K0u6OZ-A" sendEvent="_pgTYWpz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_Xpz3EeeYv9K0u6OZ-A" name="getName()" receiveEvent="_pgTYXZz3EeeYv9K0u6OZ-A" sendEvent="_pgTYXJz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_X5z3EeeYv9K0u6OZ-A" name="java.lang.String" receiveEvent="_pgTYX5z3EeeYv9K0u6OZ-A" sendEvent="_pgTYXpz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_YJz3EeeYv9K0u6OZ-A" name="getName()" receiveEvent="_pgTYYZz3EeeYv9K0u6OZ-A" sendEvent="_pgTYYJz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_YZz3EeeYv9K0u6OZ-A" name="java.lang.String" receiveEvent="_pgTYY5z3EeeYv9K0u6OZ-A" sendEvent="_pgTYYpz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_Ypz3EeeYv9K0u6OZ-A" name="getName()" receiveEvent="_pgTYZZz3EeeYv9K0u6OZ-A" sendEvent="_pgTYZJz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_Y5z3EeeYv9K0u6OZ-A" name="java.lang.String" receiveEvent="_pgTYZ5z3EeeYv9K0u6OZ-A" sendEvent="_pgTYZpz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_ZJz3EeeYv9K0u6OZ-A" name="getName()" receiveEvent="_pgTYaZz3EeeYv9K0u6OZ-A" sendEvent="_pgTYaJz3EeeYv9K0u6OZ-A"/>
+      <message xmi:id="_pgT_ZZz3EeeYv9K0u6OZ-A" name="java.lang.String" receiveEvent="_pgTYa5z3EeeYv9K0u6OZ-A" sendEvent="_pgTYapz3EeeYv9K0u6OZ-A"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
